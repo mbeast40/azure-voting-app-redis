@@ -57,7 +57,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: azure-vote-front
-        image: mbeast.azurecr.io/azure-vote-front:v1
+        image: mbeastacr.azurecr.io/azure-vote-front:v8
         ports:
         - containerPort: 80
         resources:
